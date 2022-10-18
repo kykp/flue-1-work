@@ -1,0 +1,33 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box; 
+    font-size: 16px;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    font-size: inherit;
+}
+
+input, button {
+    border:none;
+    font-size: inherit;
+    font-family: inherit;
+}
+
+input:focus, button:focus {
+    outline: none;
+}
+
+ul, li {
+    list-style-type: none;
+}
+
+.page {
+    margin: 0 auto;
+    max-width: 1920px;
+    width: 100%;
+    text-rendering: optimizeLegibility;
+    background-color: #E5E5E5;
+    font-family: 'Montserrat', sans-serif; 
+}
